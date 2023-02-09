@@ -4,4 +4,4 @@ set -e
 
 echo $@
 
-exec jupyter-lab --collaborative "${@:4}"
+exec jupyter-lab "${@:4}"
