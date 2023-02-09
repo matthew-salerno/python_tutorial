@@ -2,7 +2,7 @@ channels:
 - conda-forge
 dependencies:
 # Jupyter
-- jupyterlab=3.29
+- jupyterlab=3.2.9
 - jupyter-offlinenotebook=0.2
 - nodejs=12
 - nbconvert=7.2
