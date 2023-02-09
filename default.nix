@@ -4,7 +4,7 @@
 pkgs.mkShell {
   buildInputs = [
      pkgs.python3Packages.matplotlib
-     pkgs.python3Packages..ipywidgets
-     pkgs.python3Packages..jupyterlab
+     pkgs.python3Packages.ipywidgets
+     pkgs.python3Packages.jupyterlab
   ];
 }
