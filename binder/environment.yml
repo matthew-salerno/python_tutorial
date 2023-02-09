@@ -4,7 +4,7 @@ dependencies:
 # Jupyter
 - jupyterlab=3.6
 - jupyter-offlinenotebook=0.2
-- nodejs=18
+- nodejs=12
 - nbconvert=7.2
 # RTC
 - jupyterlab-link-share=0.2
