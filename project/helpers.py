@@ -7,7 +7,7 @@ import requests
 import json
 apiKey=''
 # Helper method to parse the different critic ratings input
-def parse_critic_scores(critic_scores: list[str]) -> float:
+def parse_critic_scores(critic_scores: list) -> float:
   num_of_ratings = len(critic_scores)
   total_score = 0.0
 
@@ -49,7 +49,7 @@ def get_info_from_api(title: str, year: str) -> dict:
   headers = {
     'Accept': 'application/json'
   }
-  single_search_payload = {'i': 'tt3896198', 'apikey': apiKey}
+  single_search_payload = {'t': title, 'y': year, 'apikey': apiKey}
   # multiple_search_payload = {'s': title, 'type': media_type, 'apiKey': apiKey}
   
   r = requests.get(url=url, params=single_search_payload, headers=headers)
