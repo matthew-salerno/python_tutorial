@@ -50,7 +50,6 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight .m { color: var(--jp-mirror-editor-number-color) } /* Literal.Number */
 .highlight .s { color: var(--jp-mirror-editor-string-color) } /* Literal.String */
 .highlight .ow { color: var(--jp-mirror-editor-operator-color); font-weight: bold } /* Operator.Word */
-.highlight .pm { color: var(--jp-mirror-editor-punctuation-color) } /* Punctuation.Marker */
 .highlight .w { color: var(--jp-mirror-editor-variable-color) } /* Text.Whitespace */
 .highlight .mb { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Bin */
 .highlight .mf { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Float */
@@ -14652,18 +14651,18 @@ div.jp-OutputPrompt {
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 
 <div class="reveal">
-<div class="slides"><section ><section >
+<div class="slides"><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Python-Lab-Tutorial">Python Lab Tutorial<a class="anchor-link" href="#Python-Lab-Tutorial">&#182;</a></h1>
+<h1 id="Python-Lab-Introduction">Python Lab Introduction<a class="anchor-link" href="#Python-Lab-Introduction">&#182;</a></h1>
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14674,7 +14673,7 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div></section><section >
+</div></section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14691,68 +14690,7 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div></section><section >
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Python-Is-Interpreted">Python Is Interpreted<a class="anchor-link" href="#Python-Is-Interpreted">&#182;</a></h2>
-</div>
-</div>
-</div>
-</div><div class="fragment" >
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Interpreted-Languages:">Interpreted Languages:<a class="anchor-link" href="#Interpreted-Languages:">&#182;</a></h3><ul>
-<li>A program called an interpreter runs every time the python program is run</li>
-<li>Easy to make changes to the source file</li>
-<li>High resource overhead</li>
-<li>Source file can be used on multiple different computer architectures</li>
-<li>Interpreter must exist on every machine to run the python code</li>
-</ul>
-
-</div>
-</div>
-</div>
-</div></div><div class="fragment" >
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Compiled-Languages:">Compiled Languages:<a class="anchor-link" href="#Compiled-Languages:">&#182;</a></h3><ul>
-<li>A program called a compiler runs once and converts the C code to machine code that is run directly on the processor*</li>
-<li>Must rebuild after every change</li>
-<li>Low resource overhead</li>
-<li>Source must be compiled for each architecture</li>
-<li>A compiled C program does not need a separate program to run</li>
-</ul>
-
-</div>
-</div>
-</div>
-</div><aside class="notes">
-
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>* In reality, the build process is more complicated. It involves additional programs such as a preprocessor, assembler, and linker.In reality, the build process is more complicated. It involves additional programs such as a preprocessor, assembler, and linker.</p>
-
-</div>
-</div>
-</div>
-</div>
-</aside></div></section><section >
+</div></section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14763,19 +14701,19 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div></section><section >
+</div></section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><img src="https://imgs.xkcd.com/comics/python.png" alt="A comic about how python is easy to use and has many libraries, by XKCD" /></p>
+<p><img src="https://imgs.xkcd.com/comics/python.png" alt="A comic about how python is easy to use and has many libraries, by XKCD"></p>
 
 </div>
 </div>
 </div>
-</div></section><section >
+</div></section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14794,74 +14732,7 @@ div.jp-OutputPrompt {
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Installing-Python">Installing Python<a class="anchor-link" href="#Installing-Python">&#182;</a></h1><p>Python should come preinstalled on MacOS and most Linux distributions
-On windows, can be installed from <a href="https://www.python.org/downloads/">python.org</a>
-Alternatively, Anaconda is a popular python suite which comes with many data science and package management tools baked. Anaconda can be installed from <a href="https://www.anaconda.com/Python">anaconda.com</a>.</p>
-
-</div>
-</div>
-</div>
-</div></section></section><section ><section >
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Using-Python">Using Python<a class="anchor-link" href="#Using-Python">&#182;</a></h1>
-</div>
-</div>
-</div>
-</div></section><section >
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Getting-Started">Getting Started<a class="anchor-link" href="#Getting-Started">&#182;</a></h2><p>Python can be run with a script (.py file) or in a REPL (Read Evaluate Print Loop) environment. To enter the REPL type the following into your commandline:</p>
-<pre><code>python
-</code></pre>
-<p>To run a script simply specify a python file to run as an argument (e.g. <code>python my_script.py</code>)</p>
-
-</div>
-</div>
-</div>
-</div></section><section >
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Try-Entering...">Try Entering...<a class="anchor-link" href="#Try-Entering...">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello world!&quot;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-</div><div class="fragment" >
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="You-sould-get">You sould get<a class="anchor-link" href="#You-sould-get">&#182;</a></h3><pre><code>Hello world!
-</code></pre>
-<p>printed back in the console</p>
-
-</div>
-</div>
-</div>
-</div></div></section></section><section ><section >
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14872,7 +14743,7 @@ Alternatively, Anaconda is a popular python suite which comes with many data sci
 </div>
 </div>
 </div>
-</div></section><section >
+</div></section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14889,7 +14760,7 @@ Alternatively, Anaconda is a popular python suite which comes with many data sci
 </div>
 </div>
 </div>
-</div></section><section >
+</div></section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14906,7 +14777,7 @@ Alternatively, Anaconda is a popular python suite which comes with many data sci
 </div>
 </div>
 </div>
-</div></section></section><section ><section >
+</div></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14914,18 +14785,6 @@ Alternatively, Anaconda is a popular python suite which comes with many data sci
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="Installing-Jupyter-Lab">Installing Jupyter Lab<a class="anchor-link" href="#Installing-Jupyter-Lab">&#182;</a></h1><p>Jupyter Lab can be installed locally or hosted remotely. For our excersice we will be using a remote version hosted by <a href="MyBinder.org">MyBinder</a>.</p>
-
-</div>
-</div>
-</div>
-</div><div class="fragment" >
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Local-Machine">Local Machine<a class="anchor-link" href="#Local-Machine">&#182;</a></h2><p><code>pip install jupyterlab</code></p>
 
 </div>
 </div>
@@ -14945,19 +14804,7 @@ to install the jupyter lab environment, or <code>pip install notebook</code> for
 </div>
 </div>
 </div>
-</aside></div><div class="fragment" >
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Reproducing-This-Environment-Later">Reproducing This Environment Later<a class="anchor-link" href="#Reproducing-This-Environment-Later">&#182;</a></h2><p>You can start a new server by going <a href="todo">here</a></p>
-
-</div>
-</div>
-</div>
-</div><aside class="notes">
+</aside><aside class="notes">
 
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -14972,19 +14819,7 @@ Just select the repository (which is <a href="todo">here</a>). Remember that MyB
 </div>
 </div>
 </div>
-</aside></div><div class="fragment" >
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="For-This-Session">For This Session<a class="anchor-link" href="#For-This-Session">&#182;</a></h2><p>You will be a given a link to open for your particular group.</p>
-
-</div>
-</div>
-</div>
-</div></div></section></section><section ><section >
+</aside></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14992,18 +14827,6 @@ Just select the repository (which is <a href="todo">here</a>). Remember that MyB
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="Using-Jupyter-Lab">Using Jupyter Lab<a class="anchor-link" href="#Using-Jupyter-Lab">&#182;</a></h1>
-</div>
-</div>
-</div>
-</div></section><section >
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="File-Explorer">File Explorer<a class="anchor-link" href="#File-Explorer">&#182;</a></h2><p><img src="https://github.com/matthew-salerno/python_tutorial/raw/main/presentation/file_explorer.png" alt="A picture of the Jupyter Lab file explorer" /></p>
-
 </div>
 </div>
 </div>
@@ -15021,19 +14844,7 @@ Just select the repository (which is <a href="todo">here</a>). Remember that MyB
 </div>
 </div>
 </div>
-</aside></section><section >
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Notebooks">Notebooks<a class="anchor-link" href="#Notebooks">&#182;</a></h2><p><img src="https://github.com/matthew-salerno/python_tutorial/raw/main/presentation/file_explorer_ipynb.png" alt="A picture of the Jupyter Lab file explorer with a .ipynb file highlighted" /></p>
-
-</div>
-</div>
-</div>
-</div><aside class="notes">
+</aside><aside class="notes">
 
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -15048,59 +14859,7 @@ A cell can be code (python in our case), raw text, or markdown formatted text.</
 </div>
 </div>
 </div>
-</aside></section><section >
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><img src="https://github.com/matthew-salerno/python_tutorial/raw/main/presentation/cells.png" alt="A picture of a Jupyter Notebook File in the Jupyter Lab IDE" /></p>
-
-</div>
-</div>
-</div>
-</div><aside class="notes">
-
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Starting at the top, the tabs indicate which file is open. The dropdown that says
-&quot;Markdown&quot; lets you select the cell type. The &quot;Hello World&quot; is an example of a markdown cell (as are these notes).
-Bellow that is a code cell, this is a python notebook, so the code is python. The number in the brackets indicates
-the run order. An empty space means the cell hasn't been run. An asterisk (*) means the cell is currently running.
-When a cell is run the number will be updated to the most recent run counter, which will always increase by 1 when
-<em>any</em> cell is run.</p>
-
-</div>
-</div>
-</div>
-</div>
-</aside></section><section >
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Editing-Cells">Editing Cells<a class="anchor-link" href="#Editing-Cells">&#182;</a></h2><ul>
-<li>Double click to edit a markdown cell</li>
-<li>ctrl-enter to run the cell</li>
-<li>shift-enter to run the cell and go to the next one</li>
-<li>In the top right of the cell are (ordered left to right) duplicate, move up and down, add above and below, and delete buttons.</li>
-<li>The refresh button restarts the kernel (clear all variables)</li>
-<li>The play button is the same as shift-enter</li>
-<li>The stop button stops the kernel (clears all variables)</li>
-<li>The fast forward button restarts the kernel and runs all cells in order</li>
-</ul>
-
-</div>
-</div>
-</div>
-</div></section></section><section ><section >
+</aside></section></section><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
